@@ -1,0 +1,165 @@
+input {
+  border-radius: 20px;
+  padding: 10px;
+  width: 50%;
+}
+.response-message {
+  color: red;
+  padding: -10px;
+}
+.bg {
+  background-image: url("https://img.freepik.com/premium-vector/concept-face-scanning-accurate-facial-recognition-biometric-technology-artificial-intelligence-concept-face-detection-hud-interface_122058-182.jpg?w=996");
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  background-size: cover;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(205, 174, 205, 0.3);
+  padding: 10px;
+  border-radius: 15px;
+
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.website-logo {
+  width: 350px;
+}
+.heading-signup {
+  color: white;
+  align-items: center;
+  font-size: 28px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.inner-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.submit-button {
+  background-color: #4f46e5;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  border: none;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.login-button-signup-page {
+  float: right;
+  color: #4f46e5;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.label {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.user-input {
+  background: transparent;
+  border: 1px solid white;
+  width: 350px;
+  border-radius: 5px;
+  padding: 12px;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+.user-info {
+  color: white;
+  margin-left: 10rem;
+}
+.login-button-signup-page {
+  color: #fff;
+
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bolder;
+  border: none;
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+.user-input::placeholder {
+  color: white;
+}
+.signin {
+  display: flex;
+  justify-content: center;
+  justify-content: right;
+}
+.already {
+  color: #fff;
+  font-weight: 500;
+  padding: 5px;
+  margin-top: 13px;
+}
+@media (max-width: 767px) {
+  .bg {
+    background-image: url("https://img.freepik.com/premium-photo/information-services-full-artistic-colorful-cinematic_967743-344.jpg?size=626&ext=jpg&uid=R122638954&ga=GA1.1.609944533.1698240239&semt=ais");
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    background-size: cover;
+    height: 100vh;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(205, 174, 205, 0.3);
+    padding: 10px;
+    border-radius: 15px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .website-logo {
+    width: 110px;
+    margin-bottom: -5px;
+  }
+  .already {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .user-input {
+    background: transparent;
+    border: 1px solid white;
+    width: 250px;
+    border-radius: 5px;
+    padding: 12px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+  }
+}

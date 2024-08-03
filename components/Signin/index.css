@@ -1,0 +1,177 @@
+.jobby-app-container {
+  background-image: url("https://img.freepik.com/premium-vector/business-data-analytics-robotic-process-automation-concept-virtual-screen-wireframed-cyborg-hand-touching-digital-interface_127544-1149.jpg?w=900");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  background-size: cover;
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: large;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(205, 174, 205, 0.3);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 2px 2px grey;
+  height: 530px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+.website-logo {
+  width: 150px;
+  margin-bottom: 25px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.heading-login {
+  color: white;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.login-button {
+  background-color: #4f46e5;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  border: none;
+  color: #fff;
+
+  cursor: pointer;
+}
+.signup-para {
+  float: right;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: bolder;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.label {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.user-input1 {
+  background: transparent;
+  border: 1px solid white;
+  width: 350px;
+  border-radius: 5px;
+  padding: 12px;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+.error-msg {
+  align-self: start;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+.user-input1::placeholder {
+  color: white;
+}
+.signupp {
+  display: flex;
+  justify-content: center;
+  justify-content: right;
+}
+.nothave {
+  color: #fff;
+  font-weight: 500;
+  padding: 5px;
+}
+@media (max-width: 767px) {
+  .jobby-app-container {
+    background-image: url("https://img.freepik.com/free-photo/3d-technology-background-with-robot-design_1048-10658.jpg?w=360&t=st=1699423740~exp=1699424340~hmac=d06b63424d0e1bcffbdf500c0c0dbc6ca85988d1d81db192f86199141e2ec642");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-size: cover;
+    height: 100vh;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(205, 174, 205, 0.3);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px grey;
+    height: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  .signup-para {
+    float: right;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 700;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .user-input1 {
+    background: transparent;
+    border: 1px solid white;
+    width: 250px;
+    border-radius: 5px;
+    padding: 12px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+  }
+  .website-logo {
+    width: 110px;
+    margin-bottom: -5px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .heading-login {
+    color: white;
+    font-size: 32px;
+  }
+  .nothave {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}

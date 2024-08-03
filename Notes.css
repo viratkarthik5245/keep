@@ -1,0 +1,42 @@
+.notes {
+  padding: 1em;
+  width: 100%;
+}
+
+.notes__input {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.notes__title,
+.notes__content {
+  margin: 0.5em 0;
+  padding: 1em;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.notes__save {
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+  background: #f4b400;
+  color: white;
+}
+
+.notes__list {
+  margin-top: 2em;
+}
+
+.note {
+  background: #fff;
+  padding: 1em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+}
+
+.note__title {
+  font-weight: bold;
+}
